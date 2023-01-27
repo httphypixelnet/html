@@ -1,0 +1,24 @@
+127.0.0.1	localhost
+127.0.1.1	SPS-ADMIN
+162.159.137.232 discord.com
+104.16.78.21 hypixel.net
+127.0.0.1 pornhub.com
+127.0.0.1 xvideos.com
+127.0.0.1 xxnx.com
+104.21.46.246 sky.shiiyu.moe
+151.101.65.140 *.reddit.com
+151.101.1.140 *.reddit.com
+151.101.193.140 *.reddit.com
+151.101.1.140 *.reddit.com
+151.101.65.140 www.reddit.com
+127.0.0.1 hi.localhost.com
+13.33.4.45 crates.io
+13.33.4.72 crates.io
+13.33.4.2 crates.io
+13.33.4.113 crates.io
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
