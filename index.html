@@ -1,38 +1,30 @@
-<!DOCTYPE html>
-<html>
 <head>
-    <title>&lt;Response [404]&gt; &#039;Portfolio.php&#039; file not found. | Schoology</title>
-
-    <link rel="stylesheet" href="./styles/bootstrap.min.css">
-<script type="text/javascript">
-    function myFunction() {
-        var ip = "Please dont view this page it is under contruction. While you are waiting why don't you watch this amazing ace!";
-        alert(ip);
-        window.location.href = "assets/ace.mp4"; 
-      document.getElementById("ip").innerHTML = ip;
-    }
-  </script>
-
-<body onload="myFunction()">
-            <h1>&lt;Response [404]&gt; &#039;Portfolio.php&#039; file not found.</h1>
-            <img class="img-responsive" src="thumb.png" style="max-width: 160px;" />
-    
-            <p>&lt;Response [404]&gt; &#039;Portfolio.php&#039; file not found on requested server <span id="ip"></span></p>
-    
-            <ul>
-                            <li>
-                    <a href="items/item-30868322/index.html">&lt;Response 401&gt; Unauthorized</a>
-                </li>
-                            <li>
-                    <a href="items/item-30868576/index.html">&lt;Response 401&gt; Unauhtorized</a>
-                </li>
-                            <li>
-                    <a href="items/item-30868900/index.html">&lt;Response 401&gt; Unauthorized</a>
-                </li>
-                            <li>
-                    <a href="items/item-30869716/index.html">&lt;Response 401&gt; Unauthorized</a>
-                </li>
-                    </ul>
-
-</body>
-</html>
+    <link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" />
+  
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+  </head>
+  
+  <body>
+    <video
+      id="my-video"
+      class="video-js"
+      controls
+      preload="auto"
+      width="640"
+      height="264"
+      poster="MY_VIDEO_POSTER.jpg"
+      data-setup="{}"
+    >
+      <source src="/assets/ace.mp4" type="video/mp4" />
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a
+        web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank"
+          >supports HTML5 video</a
+        >
+      </p>
+    </video>
+  
+    <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
+  </body>
